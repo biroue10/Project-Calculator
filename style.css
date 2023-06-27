@@ -84,7 +84,20 @@
   color: #454545;
 }
 body {
-  background-color: #f6f6f6;
+  background: #ce5937;
+  background: -moz-linear-gradient(
+    -45deg,
+    #ce5937 0%,
+    #1c6ea4 53%,
+    #c59237 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ce5937 0%,
+    #1c6ea4 53%,
+    #c59237 100%
+  );
+  background: linear-gradient(135deg, #ce5937 0%, #1c6ea4 53%, #c59237 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -96,7 +109,7 @@ footer {
   font-weight: 900;
   font-style: italic;
   margin-top: auto;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #aaaaaa;
   padding: 15px;
   color: #454545;
