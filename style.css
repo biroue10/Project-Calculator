@@ -8,9 +8,9 @@
   margin: auto;
   height: 530px;
   display: flex;
-  border: 8px groove rgba(28,110,164,0.78);
-border-radius: 14px 14px 14px 14px;
-  justify-content:center;
+  border: 8px groove rgba(28, 110, 164, 0.78);
+  border-radius: 14px 14px 14px 14px;
+  justify-content: center;
   margin-top: 70px;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,8 @@ border-radius: 14px 14px 14px 14px;
   display: flex;
   width: 95%;
   height: 100px;
-  border: 2px solid black;
+  border: 5px groove #1c6ea4;
+  border-radius: 0px 14px 14px 0px;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
@@ -36,8 +37,8 @@ border-radius: 14px 14px 14px 14px;
 .second-row-element {
   width: 48%;
   height: 60px;
-  border: 5px groove #1C6EA4;
-border-radius: 0px 14px 14px 0px;
+  border: 5px groove #1c6ea4;
+  border-radius: 0px 14px 14px 0px;
   margin-top: 10px;
   display: flex;
   align-items: center;
@@ -63,8 +64,8 @@ border-radius: 0px 14px 14px 0px;
 .sixth-row-element {
   width: 21%;
   height: 70px;
-  border: 5px groove #1C6EA4;
-border-radius: 0px 14px 14px 0px;
+  border: 5px groove #1c6ea4;
+  border-radius: 0px 14px 14px 0px;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -75,33 +76,34 @@ border-radius: 0px 14px 14px 0px;
   cursor: pointer;
   color: #454545;
 }
-.first-row-element, .first-row{
-    font-size: 2rem;
-    font-weight: 900;
-    background-color: #f6f6f6;
-    color: #454545;
+.first-row-element,
+.first-row {
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: #f6f6f6;
+  color: #454545;
 }
-body{
-    background-color: #f6f6f6;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
+body {
+  background-color: #f6f6f6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
 }
-footer{
-    display: flex;
-    justify-content: center;
-    font-weight: 900;
-    font-style: italic;
-    margin-top: auto;
-    font-size: 1.5rem;
-    background-color: #aaaaaa;
-    padding: 15px;
-    color: #454545;
+footer {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-style: italic;
+  margin-top: auto;
+  font-size: 1.5rem;
+  background-color: #aaaaaa;
+  padding: 15px;
+  color: #454545;
 }
-.effacer{
-    background-color: #ffaaaa;
+.effacer {
+  background-color: #ffaaaa;
 }
-.supprimer{
-    background-color: cornflowerblue;
+.supprimer {
+  background-color: cornflowerblue;
 }
