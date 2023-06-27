@@ -47,6 +47,7 @@
   font-size: 2rem;
   background-color: #f6f6f6;
   cursor: pointer;
+  color: #454545;
 }
 .third-row,
 .fourth-row,
@@ -72,11 +73,13 @@
   font-size: 2rem;
   background-color: #f6f6f6;
   cursor: pointer;
+  color: #454545;
 }
 .first-row-element, .first-row{
     font-size: 2rem;
     font-weight: 900;
-    background-color: #f6f6f6
+    background-color: #f6f6f6;
+    color: #454545;
 }
 body{
     background-color: #f6f6f6;
@@ -94,10 +97,11 @@ footer{
     font-size: 1.5rem;
     background-color: #aaaaaa;
     padding: 15px;
+    color: #454545;
 }
 .effacer{
     background-color: #ffaaaa;
 }
 .supprimer{
-    background-color: #9999ee;
+    background-color: cornflowerblue;
 }
