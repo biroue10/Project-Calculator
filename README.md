@@ -59,16 +59,9 @@
 
 <div align=center>
 
-<a href="https://linkedin.com/in/0xabdulkhalid" target="_blank">
+<a href="https://www.linkedin.com/in/isaac-biroue/" target="_blank">
 	<img src="https://img.shields.io/badge/linkedin-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white" alt=Linkedin>
-</a>&nbsp;&nbsp;&nbsp;
-<a href="mailto:0xabdulkhalid@gmail.com" target="_blank">
-	<img src="https://img.shields.io/badge/0xabdulkhalid@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Frontend-Mentor">
-</a> &nbsp;&nbsp;&nbsp;
-<a href="https://www.0xabdulkhalid.ml" target="_blank">
-	<img src="https://img.shields.io/badge/website-0F8A79?style=for-the-badge&logo=About.me&logoColor=white" alt="Personal Website">
 </a>
-
 </div>
 
 <br>
