@@ -49,6 +49,7 @@
   background-color: #f6f6f6;
   cursor: pointer;
   color: #454545;
+  overflow: hidden;
 }
 .third-row,
 .fourth-row,
