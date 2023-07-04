@@ -1,12 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* footer support */
+  position: relative;
+  min-height: 100%;
 }
 .container {
-  width: 35%;
   margin: auto;
-  height: 530px;
   display: flex;
   border: 8px groove rgba(28, 110, 164, 0.78);
   border-radius: 14px 14px 14px 14px;
@@ -15,6 +21,9 @@
   flex-direction: column;
   align-items: center;
   background-color: #aaaaaa;
+  height: 60vh;
+  min-height: 500px;
+  width: 400px;
 }
 .first-row {
   display: flex;
@@ -63,12 +72,13 @@
 .fourth-row-element,
 .fifth-row-element,
 .sixth-row-element {
-  width: 21%;
+  width: 20%;
   height: 70px;
   border: 5px groove #1c6ea4;
   border-radius: 0px 14px 14px 0px;
   margin-top: 10px;
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   font-weight: 900;
@@ -103,6 +113,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+  margin-top: 100px;
 }
 footer {
   display: flex;
@@ -114,6 +125,11 @@ footer {
   background-color: #aaaaaa;
   padding: 15px;
   color: #454545;
+  height: auto;
+  width: 100%;
+}
+footer > p{
+  text-align: center;
 }
 .effacer {
   background-color: #ffaaaa;
